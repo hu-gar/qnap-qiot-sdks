@@ -7,13 +7,13 @@
 #define DHTTYPE DHT11
 DHT dht(DHTPIN, DHTTYPE);
 
-const char *serverIP   = "172.17.28.81";
+const char *serverIP   = "140.118.25.64";
 const int serverPort   = 21883;
-const char *clientId   = "seeeduino001_1531448042";
-const char *username   = "c35a1823-7c16-4ec6-a281-28abe105f33f";
-const char *password   = "r:c18da6bcd8f247e2ccac95b89e1621b7";
-const char *tempTopic  = "qiot/things/admin/seeeduino001/temperatur";
-const char *humidTopic = "qiot/things/admin/seeeduino001/freuchtigkeit";
+const char *clientId   = "Thingname_1618541886";
+const char *username   = "0b82fdbed0184f9b87";
+const char *password   = "r:2b3ad27913a0e1308f";
+const char *tempTopic  = "qiot/things/Team3/Thingname/temp";
+const char *humidTopic = "qiot/things/Team3/Thingname/humid";
 
 // Enter a MAC address for your controller below.
 byte mac[] = {0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED};
